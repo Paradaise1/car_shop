@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}
+  {{ car.make }} {{ car.model }}
+  {{ car.created_at|date:"d E Y" }}
+{% endblock %}
+{% block content %}
+  <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ car.make }} {{ car.model }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          <small>
+            {{ car.pub_date|date:"d E Y, H:i" }}
+            От автора @{{ car.owner.username }}
+          </small>
+        </h6>
+        <p class="card-text">{{ car.description|linebreaksbr }}</p>
+        {% if user == car.owner %}
+          <div class="mb-2">
+            <a class="btn btn-sm text-muted" href="{% url 'shop:edit_car' car.id %}" role="button">
+              Отредактировать автомобиль
+            </a>
+            <a class="btn btn-sm text-muted" href="{% url 'shop:delete_car' car.id %}" role="button">
+              Удалить автомобиль
+            </a>
+          </div>
+        {% endif %}
+        {% include "includes/comments.html" %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,10 @@
+<div class="col d-flex justify-content-center">
+  <div class="card" style="width: 40rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{ car.make }} {{ car.model }}</h5>
+      <p class="card-text">{{ car.description|truncatewords:10 }}</p>
+      <a href="{% url 'shop:car_detail' car.id %}" class="card-link">Подробная информация</a>
+      <em class="card-link text-muted">Комментарии ({{ car.comment_count }})</em>
+    </div>
+  </div>
+</div>

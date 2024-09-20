@@ -1,0 +1,233 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Bpi81SWpSA0HDt0G2ofnLt$UdEDuX7nim2Yhd6efVEh86wYueoZVPEI3hdsA1WD3iw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "misha",
+    "first_name": "Михаэль",
+    "last_name": "Шумахер",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-18T22:58:32Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$30YLQ8AWERcPtAreVHb3IV$pNwoym7Ukiy8ZNv9L8dF3qMXB4yfJObqIsm/yNu6CrA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ferb",
+    "first_name": "Фернандо",
+    "last_name": "Алонсо",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-18T22:58:46Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 1,
+  "fields": {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "description": "Компактный седан с отличной экономией топлива и современными технологиями безопасности.",
+    "created_at": "2022-12-18T23:03:52.159Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 2,
+  "fields": {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": null,
+    "description": "Спортивный автомобиль с мощным двигателем и агрессивным дизайном.",
+    "created_at": "2022-12-18T23:04:21.682Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 3,
+  "fields": {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "description": "Надежный и экономичный седан, идеален для городской эксплуатации.",
+    "created_at": "2022-12-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 4,
+  "fields": {
+    "make": "Audi",
+    "model": "Quattro",
+    "year": 2019,
+    "description": "Тестовое описание Audi Quattro.",
+    "created_at": "2022-11-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 5,
+  "fields": {
+    "make": "Audi",
+    "model": "R8",
+    "year": 2018,
+    "description": "Тестовое описание Audi R8.",
+    "created_at": "2022-10-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 6,
+  "fields": {
+    "make": "BMW",
+    "model": "503",
+    "year": 2017,
+    "description": "Тестовое описание BMW 503.",
+    "created_at": "2022-09-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 7,
+  "fields": {
+    "make": "BMW",
+    "model": "XM",
+    "year": 2021,
+    "description": "Тестовое описание BMW XM.",
+    "created_at": "2022-08-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 8,
+  "fields": {
+    "make": "Ford",
+    "model": "Galaxy",
+    "year": 2022,
+    "description": "Тестовое описание Ford Galaxy.",
+    "created_at": "2022-07-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 1
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 9,
+  "fields": {
+    "make": "Ford",
+    "model": "Scorpio",
+    "year": 2022,
+    "description": "Тестовое описание Ford Scorpio.",
+    "created_at": "2022-06-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 10,
+  "fields": {
+    "make": "Honda",
+    "model": "Legend",
+    "year": 2022,
+    "description": "Тестовое описание Honda Legend.",
+    "created_at": "2022-05-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 11,
+  "fields": {
+    "make": "Honda",
+    "model": "Saber",
+    "year": 2021,
+    "description": "Тестовое описание Honda Saber.",
+    "created_at": "2022-04-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 12,
+  "fields": {
+    "make": "Lexus",
+    "model": "RX330",
+    "year": 2020,
+    "description": "Тестовое описание Lexus RX330.",
+    "created_at": "2022-03-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 13,
+  "fields": {
+    "make": "Lexus",
+    "model": "GS250",
+    "year": 2019,
+    "description": "Тестовое описание Lexus GS250.",
+    "created_at": "2022-02-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 14,
+  "fields": {
+    "make": "Nissan",
+    "model": "Safari",
+    "year": 2018,
+    "description": "Тестовое описание Nissan Safari.",
+    "created_at": "2022-01-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+},
+{
+  "model": "shop.car",
+  "pk": 15,
+  "fields": {
+    "make": "Nissan",
+    "model": "Gloria",
+    "year": 2017,
+    "description": "Тестовое описание Nissan Gloria.",
+    "created_at": "2021-12-18T23:04:48.750Z",
+    "updated_at": null,
+    "owner": 2
+  }
+}
+]
